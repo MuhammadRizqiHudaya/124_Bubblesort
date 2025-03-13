@@ -36,20 +36,10 @@ void BubbleSortArray() {
 	}
 }
 
-void unsorted() {
-	cout << endl;		
-	cout << "=================================" << endl; 
-	cout << "Element Array yang belum tersusun" << endl;	
-	cout << "=================================" << endl; 
-	for (int j = 0; j < n; j++) {
-		cout << a[j] << endl;
-	}
-}
-
 void display() {		
 	cout << endl;		
 	cout << "=================================" << endl;		
-	cout << "Element Array yang telah tersusun" << endl;		
+	cout << "Data Setelah Dirutkan" << endl;		
 	cout << "=================================" << endl;		
 	for (int j = 0; j < n; j++) {		
 		cout << a[j] << endl;		
@@ -59,7 +49,6 @@ void display() {
 
 int main() {		
 	input();		
-	unsorted();		
 	BubbleSortArray();		
 	display();
 	return 0;
